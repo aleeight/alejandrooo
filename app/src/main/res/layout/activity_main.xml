@@ -29,7 +29,7 @@
             android:text=" titulo" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/txtTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -40,15 +40,15 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="cuerpo" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/txtCuerpo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="cuerpo"
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/btnAgregarNota"
@@ -63,7 +63,7 @@
             android:text="titulo de nota a eliminar" />
 
         <EditText
-            android:id="@+id/txttituloeliminar"
+            android:id="@+id/txtNotaEliminar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
